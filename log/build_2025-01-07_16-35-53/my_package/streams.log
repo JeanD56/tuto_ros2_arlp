@@ -1,0 +1,21 @@
+[1.392s] Invoking command in '/home/jean/ros2_ws/src/my_package': PYTHONPATH=/home/jean/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jean/ros2_ws/build/my_package/build install --record /home/jean/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[1.706s] running egg_info
+[1.706s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.706s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.706s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.707s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.707s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.712s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.713s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.713s] running build
+[1.714s] running build_py
+[1.714s] running install
+[1.714s] running install_lib
+[1.715s] running install_data
+[1.715s] running install_egg_info
+[1.717s] removing '/home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.717s] Copying ../../build/my_package/my_package.egg-info to /home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.718s] running install_scripts
+[1.749s] Installing my_node script to /home/jean/ros2_ws/install/my_package/lib/my_package
+[1.750s] writing list of installed files to '/home/jean/ros2_ws/build/my_package/install.log'
+[1.789s] Invoked command in '/home/jean/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/jean/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/jean/ros2_ws/build/my_package/build install --record /home/jean/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
