@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.010275] (learning_tf2_py) JobQueued: {'identifier': 'learning_tf2_py', 'dependencies': OrderedDict()}
+[0.010658] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.010720] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.010755] (robot_kinematics) JobQueued: {'identifier': 'robot_kinematics', 'dependencies': OrderedDict()}
+[0.016778] (learning_tf2_py) JobStarted: {'identifier': 'learning_tf2_py'}
+[0.088018] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.101347] (-) TimerEvent: {}
+[0.117339] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.201460] (-) TimerEvent: {}
+[0.281290] (learning_tf2_py) JobEnded: {'identifier': 'learning_tf2_py', 'rc': 0}
+[0.301580] (-) TimerEvent: {}
+[0.401932] (-) TimerEvent: {}
+[0.502284] (-) TimerEvent: {}
+[0.602634] (-) TimerEvent: {}
+[0.703077] (-) TimerEvent: {}
+[0.803514] (-) TimerEvent: {}
+[0.904003] (-) TimerEvent: {}
+[0.998905] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[1.000356] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[1.004115] (-) TimerEvent: {}
+[1.012122] (robot_kinematics) JobSkipped: {'identifier': 'robot_kinematics'}
+[1.012186] (-) EventReactorShutdown: {}

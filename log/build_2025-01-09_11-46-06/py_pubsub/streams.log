@@ -1,0 +1,22 @@
+[7.566s] Invoking command in '/home/jean/ros2_ws/src/py_pubsub': PYTHONPATH=/home/jean/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jean/ros2_ws/build/py_pubsub/build install --record /home/jean/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[8.277s] running egg_info
+[8.279s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[8.283s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[8.285s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[8.286s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[8.287s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[8.293s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.297s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.298s] running build
+[8.299s] running build_py
+[8.305s] running install
+[8.306s] running install_lib
+[8.311s] running install_data
+[8.316s] running install_egg_info
+[8.327s] removing '/home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[8.338s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[8.341s] running install_scripts
+[8.450s] Installing listener script to /home/jean/ros2_ws/install/py_pubsub/lib/py_pubsub
+[8.456s] Installing talker script to /home/jean/ros2_ws/install/py_pubsub/lib/py_pubsub
+[8.458s] writing list of installed files to '/home/jean/ros2_ws/build/py_pubsub/install.log'
+[8.595s] Invoked command in '/home/jean/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/jean/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jean/ros2_ws/build/py_pubsub/build install --record /home/jean/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

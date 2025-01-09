@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.002636] (learning_tf2_py) JobQueued: {'identifier': 'learning_tf2_py', 'dependencies': OrderedDict()}
+[0.002729] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002791] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002851] (robot_kinematics) JobQueued: {'identifier': 'robot_kinematics', 'dependencies': OrderedDict()}
+[0.003433] (learning_tf2_py) JobStarted: {'identifier': 'learning_tf2_py'}
+[0.028600] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.056780] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.094644] (-) TimerEvent: {}
+[0.204211] (-) TimerEvent: {}
+[0.305436] (-) TimerEvent: {}
+[0.405974] (-) TimerEvent: {}
+[0.510354] (-) TimerEvent: {}
+[0.610878] (-) TimerEvent: {}
+[0.730226] (-) TimerEvent: {}
+[0.830883] (-) TimerEvent: {}
+[0.931431] (-) TimerEvent: {}
+[1.031956] (-) TimerEvent: {}
+[1.132461] (-) TimerEvent: {}
+[1.233095] (-) TimerEvent: {}
+[1.334084] (-) TimerEvent: {}
+[1.434564] (-) TimerEvent: {}
+[1.535076] (-) TimerEvent: {}
+[1.635439] (-) TimerEvent: {}
+[1.735856] (-) TimerEvent: {}
+[1.836237] (-) TimerEvent: {}
+[1.939046] (-) TimerEvent: {}
+[2.039700] (-) TimerEvent: {}
+[2.140200] (-) TimerEvent: {}
+[2.240692] (-) TimerEvent: {}
+[2.341133] (-) TimerEvent: {}
+[2.441499] (-) TimerEvent: {}
+[2.541971] (-) TimerEvent: {}
+[2.642496] (-) TimerEvent: {}
+[2.742883] (-) TimerEvent: {}
+[2.844413] (-) TimerEvent: {}
+[2.944791] (-) TimerEvent: {}
+[3.047602] (-) TimerEvent: {}
+[3.148069] (-) TimerEvent: {}
+[3.253744] (-) TimerEvent: {}
+[3.354749] (-) TimerEvent: {}
+[3.455182] (-) TimerEvent: {}
+[3.555739] (-) TimerEvent: {}
+[3.656190] (-) TimerEvent: {}
+[3.756851] (-) TimerEvent: {}
+[3.859116] (-) TimerEvent: {}
+[3.974887] (-) TimerEvent: {}
+[4.081765] (-) TimerEvent: {}
+[4.196586] (-) TimerEvent: {}
+[4.296998] (-) TimerEvent: {}
+[4.397333] (-) TimerEvent: {}
+[4.545195] (-) TimerEvent: {}
+[4.645712] (-) TimerEvent: {}
+[4.748146] (-) TimerEvent: {}
+[4.848602] (-) TimerEvent: {}
+[4.949544] (-) TimerEvent: {}
+[5.050069] (-) TimerEvent: {}
+[5.150548] (-) TimerEvent: {}
+[5.250970] (-) TimerEvent: {}
+[5.352079] (-) TimerEvent: {}
+[5.452520] (-) TimerEvent: {}
+[5.552950] (-) TimerEvent: {}
+[5.654414] (-) TimerEvent: {}
+[5.755032] (-) TimerEvent: {}
+[5.893130] (-) TimerEvent: {}
+[6.003206] (-) TimerEvent: {}
+[6.103840] (-) TimerEvent: {}
+[6.204345] (-) TimerEvent: {}
+[6.307521] (-) TimerEvent: {}
+[6.407924] (-) TimerEvent: {}
+[6.513102] (-) TimerEvent: {}
+[6.614327] (-) TimerEvent: {}
+[6.715288] (-) TimerEvent: {}
+[6.815844] (-) TimerEvent: {}
+[6.916378] (-) TimerEvent: {}
+[7.016804] (-) TimerEvent: {}
+[7.117930] (-) TimerEvent: {}
+[7.218262] (-) TimerEvent: {}
+[7.318691] (-) TimerEvent: {}
+[7.419199] (-) TimerEvent: {}
+[7.519585] (-) TimerEvent: {}
+[7.622242] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/jean/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/jean/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jean/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jean', 'GIT_ASKPASS': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jean', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2a21e0f3-be5b-445b-91ae-eef9aa263a02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jean', 'NAME': 'JeanSurface', 'WSL_INTEROP': '/run/WSL/3467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jean/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/jean/ros2_ws/.venv/bin:/home/jean/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1b8b9107d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jean/ros2_ws/.venv', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jean/ros2_ws/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jean/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[7.623409] (-) TimerEvent: {}
+[7.681093] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/jean/ros2_ws/build/my_package/build', 'install', '--record', '/home/jean/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jean/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jean', 'GIT_ASKPASS': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jean', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2a21e0f3-be5b-445b-91ae-eef9aa263a02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jean', 'NAME': 'JeanSurface', 'WSL_INTEROP': '/run/WSL/3467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jean/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/jean/ros2_ws/.venv/bin:/home/jean/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1b8b9107d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jean/ros2_ws/.venv', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jean/ros2_ws/build/my_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jean/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[7.733615] (learning_tf2_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/learning_tf2_py', 'build', '--build-base', '/home/jean/ros2_ws/build/learning_tf2_py/build', 'install', '--record', '/home/jean/ros2_ws/build/learning_tf2_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jean/ros2_ws/src/learning_tf2_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jean', 'GIT_ASKPASS': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jean', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2a21e0f3-be5b-445b-91ae-eef9aa263a02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jean', 'NAME': 'JeanSurface', 'WSL_INTEROP': '/run/WSL/3467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jean/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/jean/ros2_ws/.venv/bin:/home/jean/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1b8b9107d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jean/ros2_ws/.venv', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jean/ros2_ws/build/learning_tf2_py', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jean/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[7.734891] (-) TimerEvent: {}
+[7.835185] (-) TimerEvent: {}
+[7.935522] (-) TimerEvent: {}
+[8.036466] (-) TimerEvent: {}
+[8.136824] (-) TimerEvent: {}
+[8.237145] (-) TimerEvent: {}
+[8.334101] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[8.335492] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[8.337387] (-) TimerEvent: {}
+[8.339191] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[8.341787] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[8.342490] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[8.343659] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[8.349834] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[8.353340] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[8.354643] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[8.355622] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[8.361561] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[8.362482] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[8.367307] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[8.373086] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.383336] (py_pubsub) StdoutLine: {'line': b"removing '/home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.394638] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jean/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[8.397325] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[8.437385] (-) TimerEvent: {}
+[8.506240] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/jean/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[8.513087] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/jean/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[8.514466] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/jean/ros2_ws/build/py_pubsub/install.log'\n"}
+[8.537647] (-) TimerEvent: {}
+[8.638074] (-) TimerEvent: {}
+[8.651621] (py_pubsub) CommandEnded: {'returncode': 0}
+[8.738383] (-) TimerEvent: {}
+[8.739935] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[8.743782] (robot_kinematics) JobStarted: {'identifier': 'robot_kinematics'}
+[8.756379] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[8.760538] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[8.769527] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[8.770697] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[8.771399] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[8.771530] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[8.785019] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[8.785367] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[8.787091] (my_package) StdoutLine: {'line': b'running build\n'}
+[8.787431] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[8.792985] (my_package) StdoutLine: {'line': b'running install\n'}
+[8.793676] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[8.799670] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[8.802232] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.805364] (my_package) StdoutLine: {'line': b"removing '/home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.831150] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/jean/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[8.831391] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[8.838484] (-) TimerEvent: {}
+[8.918653] (learning_tf2_py) StdoutLine: {'line': b'running egg_info\n'}
+[8.925885] (learning_tf2_py) StdoutLine: {'line': b'writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO\n'}
+[8.928834] (learning_tf2_py) StdoutLine: {'line': b'writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt\n'}
+[8.935213] (learning_tf2_py) StdoutLine: {'line': b'writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt\n'}
+[8.936478] (learning_tf2_py) StdoutLine: {'line': b'writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt\n'}
+[8.938622] (learning_tf2_py) StdoutLine: {'line': b'writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt\n'}
+[8.938909] (-) TimerEvent: {}
+[8.948180] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/jean/ros2_ws/install/my_package/lib/my_package\n'}
+[8.951471] (learning_tf2_py) StdoutLine: {'line': b"reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'\n"}
+[8.953392] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/jean/ros2_ws/build/my_package/install.log'\n"}
+[8.963284] (learning_tf2_py) StdoutLine: {'line': b"writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'\n"}
+[8.963961] (learning_tf2_py) StdoutLine: {'line': b'running build\n'}
+[8.964098] (learning_tf2_py) StdoutLine: {'line': b'running build_py\n'}
+[8.974240] (learning_tf2_py) StdoutLine: {'line': b'running install\n'}
+[8.976680] (learning_tf2_py) StdoutLine: {'line': b'running install_lib\n'}
+[9.004855] (learning_tf2_py) StdoutLine: {'line': b'running install_data\n'}
+[9.013509] (learning_tf2_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.018613] (learning_tf2_py) StdoutLine: {'line': b"removing '/home/jean/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.032624] (learning_tf2_py) StdoutLine: {'line': b'Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/jean/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info\n'}
+[9.040737] (-) TimerEvent: {}
+[9.041701] (learning_tf2_py) StdoutLine: {'line': b'running install_scripts\n'}
+[9.127552] (learning_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/jean/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[9.129174] (learning_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/jean/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[9.130964] (learning_tf2_py) StdoutLine: {'line': b"writing list of installed files to '/home/jean/ros2_ws/build/learning_tf2_py/install.log'\n"}
+[9.140900] (-) TimerEvent: {}
+[9.241247] (-) TimerEvent: {}
+[9.341661] (-) TimerEvent: {}
+[9.441977] (-) TimerEvent: {}
+[9.542350] (-) TimerEvent: {}
+[9.591559] (my_package) CommandEnded: {'returncode': 0}
+[9.639927] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[9.640440] (learning_tf2_py) CommandEnded: {'returncode': 0}
+[9.642625] (-) TimerEvent: {}
+[9.678927] (learning_tf2_py) JobEnded: {'identifier': 'learning_tf2_py', 'rc': 0}
+[9.742989] (-) TimerEvent: {}
+[9.843473] (-) TimerEvent: {}
+[9.943836] (-) TimerEvent: {}
+[10.044192] (-) TimerEvent: {}
+[10.144559] (-) TimerEvent: {}
+[10.245011] (-) TimerEvent: {}
+[10.345482] (-) TimerEvent: {}
+[10.445997] (-) TimerEvent: {}
+[10.488277] (robot_kinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_kinematics', 'build', '--build-base', '/home/jean/ros2_ws/build/robot_kinematics/build', 'install', '--record', '/home/jean/ros2_ws/build/robot_kinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jean/ros2_ws/src/robot_kinematics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jean', 'GIT_ASKPASS': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jean', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2a21e0f3-be5b-445b-91ae-eef9aa263a02.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jean/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jean', 'NAME': 'JeanSurface', 'WSL_INTEROP': '/run/WSL/3467_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jean/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/jean/ros2_ws/.venv/bin:/home/jean/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1b8b9107d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jean/ros2_ws/.venv', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jean/ros2_ws/build/robot_kinematics', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jean/ros2_ws/build/robot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[10.546180] (-) TimerEvent: {}
+[10.646744] (-) TimerEvent: {}
+[10.747190] (-) TimerEvent: {}
+[10.847726] (-) TimerEvent: {}
+[10.948225] (-) TimerEvent: {}
+[11.048559] (-) TimerEvent: {}
+[11.095490] (robot_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[11.101081] (robot_kinematics) StdoutLine: {'line': b'creating ../../build/robot_kinematics/robot_kinematics.egg-info\n'}
+[11.101993] (robot_kinematics) StdoutLine: {'line': b'writing ../../build/robot_kinematics/robot_kinematics.egg-info/PKG-INFO\n'}
+[11.103104] (robot_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_kinematics/robot_kinematics.egg-info/dependency_links.txt\n'}
+[11.103248] (robot_kinematics) StdoutLine: {'line': b'writing entry points to ../../build/robot_kinematics/robot_kinematics.egg-info/entry_points.txt\n'}
+[11.103391] (robot_kinematics) StdoutLine: {'line': b'writing requirements to ../../build/robot_kinematics/robot_kinematics.egg-info/requires.txt\n'}
+[11.103461] (robot_kinematics) StdoutLine: {'line': b'writing top-level names to ../../build/robot_kinematics/robot_kinematics.egg-info/top_level.txt\n'}
+[11.107094] (robot_kinematics) StdoutLine: {'line': b"writing manifest file '../../build/robot_kinematics/robot_kinematics.egg-info/SOURCES.txt'\n"}
+[11.112296] (robot_kinematics) StdoutLine: {'line': b"reading manifest file '../../build/robot_kinematics/robot_kinematics.egg-info/SOURCES.txt'\n"}
+[11.117150] (robot_kinematics) StdoutLine: {'line': b"writing manifest file '../../build/robot_kinematics/robot_kinematics.egg-info/SOURCES.txt'\n"}
+[11.118420] (robot_kinematics) StdoutLine: {'line': b'running build\n'}
+[11.118638] (robot_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[11.118709] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/build/robot_kinematics/build\n'}
+[11.118782] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/build/robot_kinematics/build/lib\n'}
+[11.118843] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/build/robot_kinematics/build/lib/robot_kinematics\n'}
+[11.118901] (robot_kinematics) StdoutLine: {'line': b'copying robot_kinematics/__init__.py -> /home/jean/ros2_ws/build/robot_kinematics/build/lib/robot_kinematics\n'}
+[11.118960] (robot_kinematics) StdoutLine: {'line': b'copying robot_kinematics/turtlebot_pos.py -> /home/jean/ros2_ws/build/robot_kinematics/build/lib/robot_kinematics\n'}
+[11.125806] (robot_kinematics) StdoutLine: {'line': b'running install\n'}
+[11.127023] (robot_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[11.128016] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics\n'}
+[11.128212] (robot_kinematics) StdoutLine: {'line': b'copying /home/jean/ros2_ws/build/robot_kinematics/build/lib/robot_kinematics/__init__.py -> /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics\n'}
+[11.128322] (robot_kinematics) StdoutLine: {'line': b'copying /home/jean/ros2_ws/build/robot_kinematics/build/lib/robot_kinematics/turtlebot_pos.py -> /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics\n'}
+[11.129842] (robot_kinematics) StdoutLine: {'line': b'byte-compiling /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics/__init__.py to __init__.cpython-310.pyc\n'}
+[11.130331] (robot_kinematics) StdoutLine: {'line': b'byte-compiling /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics/turtlebot_pos.py to turtlebot_pos.cpython-310.pyc\n'}
+[11.131997] (robot_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[11.132219] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/install/robot_kinematics/share/ament_index\n'}
+[11.132527] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/install/robot_kinematics/share/ament_index/resource_index\n'}
+[11.134582] (robot_kinematics) StdoutLine: {'line': b'creating /home/jean/ros2_ws/install/robot_kinematics/share/ament_index/resource_index/packages\n'}
+[11.134746] (robot_kinematics) StdoutLine: {'line': b'copying resource/robot_kinematics -> /home/jean/ros2_ws/install/robot_kinematics/share/ament_index/resource_index/packages\n'}
+[11.134819] (robot_kinematics) StdoutLine: {'line': b'copying package.xml -> /home/jean/ros2_ws/install/robot_kinematics/share/robot_kinematics\n'}
+[11.134885] (robot_kinematics) StdoutLine: {'line': b'copying launch/robot_kinematics.launch.py -> /home/jean/ros2_ws/install/robot_kinematics/share/robot_kinematics\n'}
+[11.135095] (robot_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.140270] (robot_kinematics) StdoutLine: {'line': b'Copying ../../build/robot_kinematics/robot_kinematics.egg-info to /home/jean/ros2_ws/install/robot_kinematics/lib/python3.10/site-packages/robot_kinematics-0.0.0-py3.10.egg-info\n'}
+[11.141277] (robot_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[11.148668] (-) TimerEvent: {}
+[11.182006] (robot_kinematics) StdoutLine: {'line': b'Installing node-robotKinematics script to /home/jean/ros2_ws/install/robot_kinematics/lib/robot_kinematics\n'}
+[11.185273] (robot_kinematics) StdoutLine: {'line': b"writing list of installed files to '/home/jean/ros2_ws/build/robot_kinematics/install.log'\n"}
+[11.244229] (robot_kinematics) CommandEnded: {'returncode': 0}
+[11.248113] (robot_kinematics) JobEnded: {'identifier': 'robot_kinematics', 'rc': 0}
+[11.248742] (-) TimerEvent: {}
+[11.249392] (-) EventReactorShutdown: {}

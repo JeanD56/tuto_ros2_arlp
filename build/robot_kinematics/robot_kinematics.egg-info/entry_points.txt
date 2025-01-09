@@ -1,0 +1,3 @@
+[console_scripts]
+node-robotKinematics = robot_kinematics.turtlebot_pos:main
+
